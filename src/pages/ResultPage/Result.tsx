@@ -8,7 +8,6 @@ function Result() {
   const [advice, setAdvice] = useState("");
   const location = useLocation();
   const randomNumber = new URLSearchParams(location.search).get("randomNumber");
-  const choice = new URLSearchParams(location.search).get("choice");
 
   useEffect(() => {
     const fetchAdvice = async () => {

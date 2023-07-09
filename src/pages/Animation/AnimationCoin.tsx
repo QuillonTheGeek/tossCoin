@@ -21,7 +21,7 @@ function AnimationCoin() {
         <FontAwesomeIcon
           icon={faBitcoin}
           size="10x"
-          flip
+          spin
           style={{ color: "#22684a" }}
         />
 
