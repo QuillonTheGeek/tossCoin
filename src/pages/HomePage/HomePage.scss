@@ -1,0 +1,43 @@
+.container {
+  height: 100vh;
+  text-align: center;
+  //   background-image: url("https://images.pexels.com/photos/5300362/pexels-photo-5300362.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+  margin: 20vh 0;
+  .title {
+    text-align: "center";
+    align-items: center;
+    h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-bottom: 0;
+    }
+    p {
+      margin-top: 0;
+      font-size: 0.85rem;
+    }
+  }
+  button {
+    margin-top: 6vh;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 2rem 0.5rem;
+    border: none;
+    // border: 1px solid rgb(15, 48, 230);
+    cursor: pointer;
+    background-color: rgb(87, 102, 188);
+    font-family: "Montserrat", sans-serif;
+
+    &:hover {
+      background-color: #1dbf73;
+      border-color: #1dbf73;
+    }
+    .link {
+      font-size: 1.5rem;
+      color: white;
+      font-weight: 700;
+    }
+  }
+}
